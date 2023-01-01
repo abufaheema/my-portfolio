@@ -55,7 +55,174 @@
 
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- NAVBAR---------------------------------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg fixed-top animated fadeInDown ">
+        <div class="container">
+          <a class="navbar-brand fs-2" href="#">Abdul <span style="color: #f9004d;">rahman</span></a>
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="#hero">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact Us</a>
+                  </li>
+                  
+              </ul>
+              <a href="" class="btn btn-brand">Subscribe</a>
+              
+          </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION--------------------------------------------------------------- -->
+  <section id="hero">
+    <div class="container ">
+        <div class="row  ">
+            <div class="col-lg-7  ">
+                <h4 class="text-white-50" style="letter-spacing: 2px;" data-aos="fade-up">Hello, my name is</h4>
+                <h1 class="text-white display-4" data-aos="fade-up" data-aos-delay="100">Abdulrahman <span style="color: #f9004d;">Oloyede</span> </h1>
+                <h3 class="text-white fs-1 mb-3" data-aos="fade-up" data-aos-delay="200">I'am a web Developer</h3>
+                <div class="search" data-aos="fade-up" data-aos-delay="300">
+                    <form >
+                        <input type="email" name="email" class="form-control" id="mail" placeholder="Enter your Email">
+                        <a href="" class="btn">submit</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT SECTION -->
+  <section class="section-padding" id="about" style="background-color: #191919;">
+    <div class="container" >
+        
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-up" >
+                <div class="img">
+                    <img src="/assets/images/img1.webp" alt="">
+                </div>
+                
+            </div>
+            <div class="col-lg-6">
+                <h2 class="text-white display-3 mb-4" data-aos="fade-up">About Me</h2>
+                <h5 class="text-white fs-3 mb-3" data-aos="fade-up" data-aos-delay="100">Developer <span style="color: #f9004d;">& Designer</span> </h5>
+                <p class="text-white-50 fs-5" data-aos="fade-up" data-aos-delay="200">I am a front-end wed developer. I can provide clean code and pixel perfect design. I also make the website more & more 
+                    interactive with web animations. A responsive design make your website accessibl to all users, regardless of their device.
+                </p>
+                <a href="#" class="btn" data-aos="fade-up" data-aos-delay="200">Let's Talk</a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- SERVICE SECTION -->
+  <section class="section-padding" id="services" >
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+             <div class="col-lg-8" data-aos="fade-up" >
+                <h4 class="text-center">Our Services</h4>
+             </div>
+        </div>
+        <div class="row  text-center gy-3 gx-4">
+            <div class="col-md-6 col-lg-4 card-effect" style="background-color: #191919;" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon fs-1 mb-3 text-center mx-auto ">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="service-text">
+                    <h5 class="fs-3 text-white">Web Development</h5>
+                    <p class="text-white-50">Every website should be built with two primary goal: Firstly, it needs to work across all devices.
+                        Secondly, it needs to be fast a possible.
+                    </p>
+                    <p class="text-center">
+                        <a href="#" class="btn">Read More</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 card-effect" style="background-color: #191919;" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon fs-1 mb-3 text-center mx-auto  ">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="service-text">
+                    <h5 class="fs-3 text-white ">Web Development</h5>
+                    <p class="text-white-50">Every website should be built with two primary goal: Firstly, it needs to work across all devices.
+                        Secondly, it needs to be fast a possible.
+                    </p>
+                    <p class="text-center">
+                        <a href="#" class="btn">Read More</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 card-effect" style="background-color: #191919;" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon fs-1 mb-3 text-center mx-auto  ">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <div class="service-text">
+                    <h5 class="fs-3 text-white">Web Development</h5>
+                    <p class="text-white-50">Every website should be built with two primary goal: Firstly, it needs to work across all devices.
+                        Secondly, it needs to be fast a possible.
+                    </p>
+                    <p class="text-center">
+                        <a href="#" class="btn">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION ------------------->
+  <section class="section-padding" id="contact" >
+    <div class="container justify-content-center d-flex align-items-center">
+        <div class="row ">
+            <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+                <p class="mb-0 text-white fs-2 fw-bold">Let Me Get You A Beautiful Website</p>
+                <div class="text-center">
+                <a href="" class="btn ">Hire Me</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER SECTION -->
+  <section class="section-padding bg-dark text-white" id="footer">
+    <div class="container justify-content-center d-flex ">
+        <div class="row">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+                <h1>
+                    Abdulrahman Oloyede
+                </h1>
+                <p class="text-center">for more Details, please click on the below link</p>
+                <p class="social text-center">
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-whatsapp"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                </p> 
+
+            </div>
+        </div>
+    </div>
+  </section>
+    
   
 
 
